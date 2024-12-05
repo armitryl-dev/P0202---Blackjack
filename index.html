@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juega al 21</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header><h1>Juega al BlackJack</h1></header>
+    <div class="juego">
+        <div class="colum">
+        <div class="acciones">
+            <button class="btn" id="btnNuevoJuego">Nuevo Juego</button>
+            <button class="btn" id="btnPedir">Pedir carta</button>
+            <button class="btn" id="btnPasar">Pasar</button>
+        </div>
+        <div class="jugador01">
+            <h2>JUGADOR 1 - Puntos: <small>0</small></h2>
+            <div id="jugador01-cartas"><br>
+                <img class="carta" src="assets/cartas/red_back.png">
+            </div>
+        </div>
+        <div class="computadora">
+            <h2>BANCA - Puntos: <small>0</small></h2>
+            <div id="computadoras-cartas"><br>
+                <img class="carta" src="assets/cartas/grey_back.png">
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

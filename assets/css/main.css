@@ -1,0 +1,78 @@
+/* Estilo general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #016b0c, #f2fcfe);
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Centrado de las acciones (botones) */
+.acciones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #ff5e57;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffe25038;
+}
+
+/* Estilo del contenedor del juego */
+.juego {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.carta {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.boton-deshabilitado {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
